@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style type="text/css">
+    /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header Section */
+  header {
+    background: #00bcd4;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  .hero {
+    margin-top: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  /* Features Section */
+  #features {
+    background-color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .feature img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .feature h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .pricing-card {
+    display: inline-block;
+    width: 30%;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .pricing-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .pricing-card p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .pricing-card .cta-btn {
+    margin-top: 20px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <div class="logo">MOHAMMAD AAKIL BRAND</div>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Your Ultimate Solution Awaits</h1>
+      <p>Transform your business with our powerful platform.</p>
+      <a href="#signup" class="cta-btn">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features">
+    <div class="container">
+      <div class="feature">
+        <img src="https://via.placeholder.com/200" alt="Feature 1">
+        <h2>Feature One</h2>
+        <p>Our platform offers the best feature to make your work easier.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/200" alt="Feature 2">
+        <h2>Feature Two</h2>
+        <p>Unlock new possibilities and optimize your workflow.</p>
+      </div>
+      <div class="feature">
+        <img src="https://via.placeholder.com/200" alt="Feature 3">
+        <h2>Feature Three</h2>
+        <p>Stay ahead with advanced features and regular updates.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <div class="container">
+      <h2>Choose Your Plan</h2>
+      <div class="pricing-card">
+        <h3>Basic Plan</h3>
+        <p>$29/month</p>
+        <p>Perfect for individuals or small businesses.</p>
+        <a href="#signup" class="cta-btn">Sign Up</a>
+      </div>
+      <div class="pricing-card">
+        <h3>Pro Plan</h3>
+        <p>$59/month</p>
+        <p>Best for growing businesses with advanced needs.</p>
+        <a href="#signup" class="cta-btn">Sign Up</a>
+      </div>
+      <div class="pricing-card">
+        <h3>Enterprise Plan</h3>
+        <p>$99/month</p>
+        <p>For large teams and enterprise solutions.</p>
+        <a href="#signup" class="cta-btn">Sign Up</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need support, reach out to us!</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Brand. All rights reserved.</p>
+  </footer>
+</body>
+</html>
